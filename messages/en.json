@@ -1,0 +1,15 @@
+{
+  "Home": {
+    "heading": "Welcome to Ziko",
+    "body": "The fitness app with AI coaching. Coming soon."
+  },
+  "Footer": {
+    "copyright": "© 2026 Ziko. All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use"
+  },
+  "LegalStub": {
+    "comingSoon": "Content coming soon."
+  }
+}

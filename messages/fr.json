@@ -1,0 +1,15 @@
+{
+  "Home": {
+    "heading": "Bienvenue sur Ziko",
+    "body": "L'application fitness avec coaching IA. Bientôt disponible."
+  },
+  "Footer": {
+    "copyright": "© 2026 Ziko. Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "CGU"
+  },
+  "LegalStub": {
+    "comingSoon": "Contenu à venir."
+  }
+}
