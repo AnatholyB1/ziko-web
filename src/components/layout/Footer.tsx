@@ -17,6 +17,9 @@ export async function Footer() {
           <Link href="/cgu" className="text-sm text-text hover:underline">
             {t('terms')}
           </Link>
+          <Link href="/supprimer-mon-compte" className="text-sm text-muted hover:underline">
+            {t('deleteAccount')}
+          </Link>
         </nav>
       </div>
     </footer>
