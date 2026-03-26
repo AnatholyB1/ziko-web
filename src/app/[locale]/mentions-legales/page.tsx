@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -67,9 +68,9 @@ export default async function MentionsLegalesPage({ params }: Props) {
         </p>
         <p className="text-text leading-relaxed mb-4">
           Pour plus d&apos;informations sur notre politique de traitement des donn&eacute;es personnelles, veuillez consulter notre{' '}
-          <a href="/politique-de-confidentialite" className="text-primary underline">
+          <Link href="/politique-de-confidentialite" className="text-primary underline">
             Politique de confidentialit&eacute;
-          </a>.
+          </Link>.
         </p>
       </section>
 

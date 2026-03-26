@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -138,9 +139,9 @@ export default async function PolitiqueConfidentialitePage({ params }: Props) {
           <li><strong>Droit de rectification (Art. 16)&nbsp;:</strong> corriger des donn&eacute;es inexactes ou incompl&egrave;tes</li>
           <li>
             <strong>Droit &agrave; l&apos;effacement (Art. 17)&nbsp;:</strong> demander la suppression de vos donn&eacute;es. Vous pouvez &eacute;galement supprimer votre compte directement depuis la page{' '}
-            <a href="/supprimer-mon-compte" className="text-primary underline">
+            <Link href="/supprimer-mon-compte" className="text-primary underline">
               Supprimer mon compte
-            </a>
+            </Link>
           </li>
           <li><strong>Droit &agrave; la limitation du traitement (Art. 18)&nbsp;:</strong> demander la suspension temporaire du traitement de vos donn&eacute;es</li>
           <li><strong>Droit &agrave; la portabilit&eacute; (Art. 20)&nbsp;:</strong> recevoir vos donn&eacute;es dans un format structur&eacute; et lisible par machine</li>

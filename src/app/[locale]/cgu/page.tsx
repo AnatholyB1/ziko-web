@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -54,12 +55,12 @@ export default async function CguPage({ params }: Props) {
         </p>
         <p className="text-text leading-relaxed mb-4">
           Vous pouvez supprimer votre compte &agrave; tout moment depuis la page{' '}
-          <a href="/supprimer-mon-compte" className="text-primary underline">
+          <Link href="/supprimer-mon-compte" className="text-primary underline">
             Supprimer mon compte
-          </a>. La suppression entra&icirc;ne l&apos;effacement d&eacute;finitif de toutes vos donn&eacute;es personnelles conform&eacute;ment &agrave; notre{' '}
-          <a href="/politique-de-confidentialite" className="text-primary underline">
+          </Link>. La suppression entra&icirc;ne l&apos;effacement d&eacute;finitif de toutes vos donn&eacute;es personnelles conform&eacute;ment &agrave; notre{' '}
+          <Link href="/politique-de-confidentialite" className="text-primary underline">
             Politique de confidentialit&eacute;
-          </a>.
+          </Link>.
         </p>
       </section>
 
@@ -92,9 +93,9 @@ export default async function CguPage({ params }: Props) {
         <h2 className="text-xl font-semibold mt-8 mb-3">6. Donn&eacute;es personnelles</h2>
         <p className="text-text leading-relaxed mb-4">
           Le traitement de vos donn&eacute;es personnelles est r&eacute;gi par notre{' '}
-          <a href="/politique-de-confidentialite" className="text-primary underline">
+          <Link href="/politique-de-confidentialite" className="text-primary underline">
             Politique de confidentialit&eacute;
-          </a>{' '}
+          </Link>{' '}
           int&eacute;gr&eacute;e aux pr&eacute;sentes CGU par r&eacute;f&eacute;rence. En acceptant les pr&eacute;sentes CGU, vous reconnaissez avoir pris connaissance de cette politique.
         </p>
       </section>
