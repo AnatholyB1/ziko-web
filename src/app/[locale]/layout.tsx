@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import { setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { Footer } from '@/components/layout/Footer';
 import '../globals.css';
@@ -25,10 +26,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${inter.className} bg-background text-text min-h-screen flex flex-col`}>
-        <div className="flex-1">
-          {children}
-        </div>
-        <Footer />
+        <NextIntlClientProvider>
+          <div className="flex-1">
+            {children}
+          </div>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

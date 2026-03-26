@@ -1,8 +1,8 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
-export function Footer() {
-  const t = useTranslations('Footer');
+export async function Footer() {
+  const t = await getTranslations('Footer');
   return (
     <footer className="bg-white border-t-2 border-t-primary">
       <div className="max-w-screen-xl mx-auto px-8 py-6 flex justify-between items-center">
