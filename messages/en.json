@@ -1,7 +1,53 @@
 {
+  "Header": {
+    "logo": "Ziko",
+    "cta": "Download the app",
+    "localeFR": "FR",
+    "localeEN": "EN"
+  },
   "Home": {
-    "heading": "Welcome to Ziko",
-    "body": "The fitness app with AI coaching. Coming soon."
+    "hero": {
+      "headline": "Everything you need to level up",
+      "subline": "17 plugins, one app. AI coaching, nutrition tracking, GPS running and much more.",
+      "ctaAppStore": "Download on the App Store",
+      "ctaPlayStore": "Get it on Google Play"
+    },
+    "showcase": {
+      "heading": "Our 17 plugins",
+      "categoryTraining": "Training",
+      "categoryHealth": "Health",
+      "categoryNutrition": "Nutrition",
+      "categoryCoaching": "Coaching & AI",
+      "categoryCommunity": "Community"
+    },
+    "pricing": {
+      "heading": "Free forever",
+      "price": "$0",
+      "priceUnit": "/month",
+      "valueProp1": "No subscription, no hidden fees",
+      "valueProp2": "AI coaching included in the app",
+      "valueProp3": "17 plugins available from day one",
+      "cta": "Download for free"
+    }
+  },
+  "Plugins": {
+    "timer": "Build Tabata, HIIT, EMOM and Hyrox sessions with customizable timers and exercise tracking.",
+    "cardio": "Record your runs and rides with live GPS tracking, pace, distance and elevation.",
+    "ai-programs": "Generate complete workout programs tailored to your goals with AI.",
+    "rpe": "Calculate your estimated 1RM and fine-tune session intensity using the RPE scale.",
+    "stretching": "Access stretching and mobility routines tailored to your recovery needs.",
+    "sleep": "Track your sleep quality and get a daily recovery score.",
+    "measurements": "Log your body measurements and visualize your progress over time.",
+    "hydration": "Track your daily water intake and hit your hydration goals.",
+    "wearables": "Sync Apple Health or Health Connect to centralize all your health data.",
+    "nutrition": "Log your meals, track your macros and calculate your caloric needs with the TDEE calculator.",
+    "supplements": "Browse the supplement catalog and compare prices across brands in real time.",
+    "habits": "Build daily habits, track your goals and stay consistent with AI coaching.",
+    "persona": "Customize your AI coach's style for guidance that fits your personality.",
+    "journal": "Log your mood, energy and stress levels for a complete mental well-being snapshot.",
+    "gamification": "Earn XP, level up and unlock rewards by reaching your fitness goals.",
+    "stats": "Analyze your performance with detailed charts and statistics on your progress.",
+    "community": "Join challenges, follow friends and climb community leaderboards."
   },
   "Footer": {
     "copyright": "© 2026 Ziko. All rights reserved.",

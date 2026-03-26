@@ -1,7 +1,53 @@
 {
+  "Header": {
+    "logo": "Ziko",
+    "cta": "Télécharger l'app",
+    "localeFR": "FR",
+    "localeEN": "EN"
+  },
   "Home": {
-    "heading": "Bienvenue sur Ziko",
-    "body": "L'application fitness avec coaching IA. Bientôt disponible."
+    "hero": {
+      "headline": "Tout ce dont vous avez besoin pour progresser",
+      "subline": "17 plugins, un seul abonnement. Coaching IA, suivi nutrition, GPS running et bien plus.",
+      "ctaAppStore": "Télécharger sur l'App Store",
+      "ctaPlayStore": "Disponible sur Google Play"
+    },
+    "showcase": {
+      "heading": "Nos 17 plugins",
+      "categoryTraining": "Entraînement",
+      "categoryHealth": "Santé",
+      "categoryNutrition": "Nutrition",
+      "categoryCoaching": "Coaching & IA",
+      "categoryCommunity": "Communauté"
+    },
+    "pricing": {
+      "heading": "Gratuit pour toujours",
+      "price": "0€",
+      "priceUnit": "/mois",
+      "valueProp1": "Pas d'abonnement, pas de surprise",
+      "valueProp2": "Coaching IA inclus dans l'app",
+      "valueProp3": "17 plugins disponibles dès le téléchargement",
+      "cta": "Télécharger gratuitement"
+    }
+  },
+  "Plugins": {
+    "timer": "Créez des séances Tabata, HIIT, EMOM et Hyrox avec des timers personnalisables et un suivi d'exercices.",
+    "cardio": "Enregistrez vos courses et sorties vélo avec suivi GPS en direct, allure, distance et dénivelé.",
+    "ai-programs": "Générez des programmes d'entraînement complets adaptés à vos objectifs grâce à l'IA.",
+    "rpe": "Calculez votre 1RM estimé et ajustez l'intensité de vos séances avec l'échelle RPE.",
+    "stretching": "Accédez à des routines de stretching et mobilité adaptées à votre récupération.",
+    "sleep": "Suivez la qualité de votre sommeil et obtenez un score de récupération journalier.",
+    "measurements": "Enregistrez vos mesures corporelles et visualisez votre progression dans le temps.",
+    "hydration": "Suivez votre consommation d'eau quotidienne et atteignez vos objectifs d'hydratation.",
+    "wearables": "Synchronisez Apple Health ou Health Connect pour centraliser toutes vos données santé.",
+    "nutrition": "Tracez vos repas, suivez vos macros et calculez vos besoins caloriques avec le calculateur TDEE.",
+    "supplements": "Explorez le catalogue de compléments et comparez les prix entre les marques en temps réel.",
+    "habits": "Créez des habitudes quotidiennes, suivez vos objectifs et restez régulier grâce au coaching IA.",
+    "persona": "Personnalisez le style de coaching de votre IA pour un accompagnement adapté à votre personnalité.",
+    "journal": "Notez votre humeur, énergie et stress pour un suivi complet de votre bien-être mental.",
+    "gamification": "Gagnez de l'XP, montez de niveau et débloquez des récompenses en atteignant vos objectifs.",
+    "stats": "Analysez vos performances avec des graphiques et des statistiques détaillées sur vos progrès.",
+    "community": "Rejoignez des défis, suivez vos amis et grimpez dans les classements de la communauté."
   },
   "Footer": {
     "copyright": "© 2026 Ziko. Tous droits réservés.",
