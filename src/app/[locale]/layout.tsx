@@ -24,15 +24,13 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
-      <body className={`${inter.className} bg-background text-text min-h-screen flex flex-col`}>
-        <NextIntlClientProvider>
-          <div className="flex-1">
-            {children}
-          </div>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      <div className={`${inter.className} bg-background text-text min-h-screen flex flex-col`}>
+        <div className="flex-1">
+          {children}
+        </div>
+        <Footer />
+      </div>
+    </NextIntlClientProvider>
   );
 }
