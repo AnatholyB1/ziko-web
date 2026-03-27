@@ -12,11 +12,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fr">
       <body>
         {children}
+        {/* Privacy-friendly analytics by Plausible */}
         <Script
-          defer
-          data-domain="ziko-app.com"
-          src="https://plausible.io/js/script.js"
+          async
+          src="https://plausible.io/js/pa-rJuI-Kc3gPygcauGKG7eV.js"
           strategy="afterInteractive"
+        />
+        <Script
+          id="plausible-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`,
+          }}
         />
       </body>
     </html>
