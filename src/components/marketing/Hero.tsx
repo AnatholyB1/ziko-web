@@ -56,7 +56,7 @@ export async function Hero() {
                 }}
               >
                 <Image
-                  src="/app-screenshot-placeholder.png"
+                  src="/screen.jpg"
                   alt={tMeta('appScreenshotAlt')}
                   fill
                   style={{ objectFit: 'cover' }}
