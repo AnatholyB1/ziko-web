@@ -1,7 +1,37 @@
-import { setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
+import type { Metadata } from 'next'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { Link } from '@/i18n/navigation'
 
-type Props = { params: Promise<{ locale: string }> };
+type Props = { params: Promise<{ locale: string }> }
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'Metadata' })
+
+  return {
+    title: t('privacyTitle'),
+    description: t('privacyDescription'),
+    alternates: {
+      canonical: `/${locale}/politique-de-confidentialite`,
+      languages: { fr: '/fr/politique-de-confidentialite', en: '/en/politique-de-confidentialite' },
+    },
+    openGraph: {
+      title: t('privacyTitle'),
+      description: t('privacyDescription'),
+      url: `/${locale}/politique-de-confidentialite`,
+      siteName: 'Ziko',
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: t('ogImageAlt') }],
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('privacyTitle'),
+      description: t('privacyDescription'),
+      images: ['/og-image.png'],
+    },
+  }
+}
 
 export default async function PolitiqueConfidentialitePage({ params }: Props) {
   const { locale } = await params;
