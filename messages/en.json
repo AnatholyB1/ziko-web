@@ -49,6 +49,20 @@
     "stats": "Analyze your performance with detailed charts and statistics on your progress.",
     "community": "Join challenges, follow friends and climb community leaderboards."
   },
+  "Metadata": {
+    "homeTitle": "Ziko \u2014 All-in-one fitness app",
+    "homeDescription": "AI coaching, nutrition tracking, GPS running, 17 plugins. Download Ziko for free.",
+    "ogImageAlt": "Ziko \u2014 All-in-one fitness app",
+    "legalTitle": "Legal notice \u2014 Ziko",
+    "legalDescription": "Legal notice for Ziko, a mobile fitness application.",
+    "privacyTitle": "Privacy policy \u2014 Ziko",
+    "privacyDescription": "How Ziko collects and processes your personal data.",
+    "cguTitle": "Terms of use \u2014 Ziko",
+    "cguDescription": "Terms of use for the Ziko application.",
+    "deleteTitle": "Delete my account \u2014 Ziko",
+    "deleteDescription": "Request deletion of your Ziko account.",
+    "appScreenshotAlt": "Ziko app screenshot"
+  },
   "Footer": {
     "copyright": "© 2026 Ziko. All rights reserved.",
     "legal": "Legal notice",
