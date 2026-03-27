@@ -1,7 +1,9 @@
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 export async function Hero() {
   const t = await getTranslations('Home');
+  const tMeta = await getTranslations('Metadata');
 
   return (
     <section>
@@ -49,9 +51,19 @@ export async function Hero() {
                   width: '100%',
                   height: '100%',
                   borderRadius: 30,
-                  background: 'linear-gradient(160deg, #FF5C1A 0%, #FFB199 60%, #F7F6F3 100%)',
+                  position: 'relative',
+                  overflow: 'hidden',
                 }}
-              />
+              >
+                <Image
+                  src="/app-screenshot-placeholder.png"
+                  alt={tMeta('appScreenshotAlt')}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 220px"
+                />
+              </div>
               <div
                 style={{
                   position: 'absolute',
