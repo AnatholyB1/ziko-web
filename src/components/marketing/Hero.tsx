@@ -25,7 +25,9 @@ export async function Hero() {
                 {t('hero.ctaAppStore')}
               </a>
               <a
-                href="#"
+                href="https://play.google.com/apps/internaltest/4701476780923858257"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary text-white px-6 py-3 rounded-xl font-bold text-sm inline-block"
               >
                 {t('hero.ctaPlayStore')}
