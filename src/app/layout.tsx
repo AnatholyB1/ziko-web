@@ -1,7 +1,11 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+
+export const viewport: Viewport = {
+  themeColor: '#FF5C1A',
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -10,7 +14,6 @@ export const metadata: Metadata = {
     default: 'Ziko — L\'appli fitness tout-en-un',
   },
   applicationName: 'Ziko',
-  themeColor: '#FF5C1A',
   manifest: '/manifest.webmanifest',
   appleWebApp: {
     capable: true,
