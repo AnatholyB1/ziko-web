@@ -5,6 +5,7 @@ import { HowItWorks } from '@/components/marketing/HowItWorks'
 import { AICoach } from '@/components/marketing/AICoach'
 import { PluginShowcase } from '@/components/marketing/PluginShowcase'
 import { Pricing } from '@/components/marketing/Pricing'
+import { JsonLd } from '@/components/seo/JsonLd'
 
 type Props = { params: Promise<{ locale: string }> }
 
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'Metadata' })
 
   return {
-    title: t('homeTitle'),
+    title: { absolute: t('homeTitle') },
     description: t('homeDescription'),
     alternates: {
       canonical: `/${locale}`,
@@ -41,8 +42,32 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
 
+  const t = await getTranslations({ locale, namespace: 'Metadata' })
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ziko-app.com'
+
+  const appSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'MobileApplication',
+    name: 'Ziko',
+    description: t('homeDescription'),
+    operatingSystem: 'iOS, Android',
+    applicationCategory: 'HealthApplication',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+    url: siteUrl,
+    screenshot: `${siteUrl}/screen.jpg`,
+  }
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    url: siteUrl,
+    name: 'Ziko',
+  }
+
   return (
     <main>
+      <JsonLd data={appSchema} />
+      <JsonLd data={websiteSchema} />
       <Hero />
       <HowItWorks />
       <AICoach />
