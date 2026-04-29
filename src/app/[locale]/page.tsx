@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Hero } from '@/components/marketing/Hero'
+import { HowItWorks } from '@/components/marketing/HowItWorks'
+import { AICoach } from '@/components/marketing/AICoach'
 import { PluginShowcase } from '@/components/marketing/PluginShowcase'
 import { Pricing } from '@/components/marketing/Pricing'
 
@@ -42,6 +44,8 @@ export default async function HomePage({ params }: Props) {
   return (
     <main>
       <Hero />
+      <HowItWorks />
+      <AICoach />
       <PluginShowcase />
       <Pricing />
     </main>
