@@ -7,13 +7,40 @@
   },
   "Home": {
     "hero": {
-      "headline": "Everything you need to level up",
+      "badge": "🔥 AI Coach · 17 plugins · iOS & Android",
+      "headline1": "Train.",
+      "headline2": "Progress.",
+      "headline3": "Repeat.",
       "subline": "17 plugins, one app. AI coaching, nutrition tracking, GPS running and much more.",
       "ctaAppStore": "Download on the App Store",
       "ctaPlayStore": "Get it on Google Play"
     },
+    "howItWorks": {
+      "heading": "How it works",
+      "step1": {
+        "title": "Download",
+        "description": "Install Ziko in 30 seconds, available on iOS and Android."
+      },
+      "step2": {
+        "title": "Customize",
+        "description": "Choose your plugins, configure your AI coach to match your training style."
+      },
+      "step3": {
+        "title": "Progress",
+        "description": "Track your data, get personalized recommendations and beat your records."
+      }
+    },
+    "aiCoach": {
+      "badge": "Powered by Claude Sonnet",
+      "heading": "An AI coach that truly gets you",
+      "description": "Ask questions, set goals, request a program. Your AI coach analyzes your habits, nutrition and performance to give you real-time personalized advice.",
+      "cta": "Discover the AI coach",
+      "userMessage": "I struggle to stay consistent — how can you help?",
+      "aiMessage": "Let's start with 3 simple habits this week. I'll send you a daily reminder and adjust based on your results. 💪"
+    },
     "showcase": {
-      "heading": "Our 17 plugins",
+      "heading": "17 plugins, one app",
+      "categoryAll": "All",
       "categoryTraining": "Training",
       "categoryHealth": "Health",
       "categoryNutrition": "Nutrition",
@@ -21,13 +48,15 @@
       "categoryCommunity": "Community"
     },
     "pricing": {
+      "popularBadge": "Most popular",
       "heading": "Free forever",
       "price": "$0",
       "priceUnit": "/month",
       "valueProp1": "No subscription, no hidden fees",
       "valueProp2": "AI coaching included in the app",
       "valueProp3": "17 plugins available from day one",
-      "cta": "Download for free"
+      "cta": "Download for free",
+      "priceNote": "7-day free trial · Cancel anytime"
     }
   },
   "Plugins": {
@@ -50,16 +79,16 @@
     "community": "Join challenges, follow friends and climb community leaderboards."
   },
   "Metadata": {
-    "homeTitle": "Ziko \u2014 All-in-one fitness app",
+    "homeTitle": "Ziko — All-in-one fitness app",
     "homeDescription": "AI coaching, nutrition tracking, GPS running, 17 plugins. Download Ziko for free.",
-    "ogImageAlt": "Ziko \u2014 All-in-one fitness app",
-    "legalTitle": "Legal notice \u2014 Ziko",
+    "ogImageAlt": "Ziko — All-in-one fitness app",
+    "legalTitle": "Legal notice — Ziko",
     "legalDescription": "Legal notice for Ziko, a mobile fitness application.",
-    "privacyTitle": "Privacy policy \u2014 Ziko",
+    "privacyTitle": "Privacy policy — Ziko",
     "privacyDescription": "How Ziko collects and processes your personal data.",
-    "cguTitle": "Terms of use \u2014 Ziko",
+    "cguTitle": "Terms of use — Ziko",
     "cguDescription": "Terms of use for the Ziko application.",
-    "deleteTitle": "Delete my account \u2014 Ziko",
+    "deleteTitle": "Delete my account — Ziko",
     "deleteDescription": "Request deletion of your Ziko account.",
     "appScreenshotAlt": "Ziko app screenshot"
   },

@@ -7,13 +7,40 @@
   },
   "Home": {
     "hero": {
-      "headline": "Tout ce dont vous avez besoin pour progresser",
+      "badge": "🔥 Coach IA · 17 plugins · iOS & Android",
+      "headline1": "Entraîne-toi.",
+      "headline2": "Progresse.",
+      "headline3": "Recommence.",
       "subline": "17 plugins, un seul abonnement. Coaching IA, suivi nutrition, GPS running et bien plus.",
       "ctaAppStore": "Télécharger sur l'App Store",
       "ctaPlayStore": "Disponible sur Google Play"
     },
+    "howItWorks": {
+      "heading": "Comment ça marche",
+      "step1": {
+        "title": "Télécharge",
+        "description": "Installe Ziko en 30 secondes, disponible sur iOS et Android."
+      },
+      "step2": {
+        "title": "Personnalise",
+        "description": "Choisis tes plugins, configure ton coach IA selon ton style d'entraînement."
+      },
+      "step3": {
+        "title": "Progresse",
+        "description": "Suis tes données, reçois des recommandations et bats tes records."
+      }
+    },
+    "aiCoach": {
+      "badge": "Propulsé par Claude Sonnet",
+      "heading": "Ton coach IA qui te comprend vraiment",
+      "description": "Pose tes questions, fixe tes objectifs, demande un programme. Le coach IA analyse tes habitudes, ta nutrition et tes performances pour te donner des conseils personnalisés en temps réel.",
+      "cta": "Découvrir le coach IA",
+      "userMessage": "J'ai du mal à rester régulier, comment m'aider ?",
+      "aiMessage": "Commençons par 3 habitudes simples cette semaine. Je vais t'envoyer un rappel chaque jour et ajuster selon tes résultats. 💪"
+    },
     "showcase": {
-      "heading": "Nos 17 plugins",
+      "heading": "17 plugins, une seule app",
+      "categoryAll": "Tous",
       "categoryTraining": "Entraînement",
       "categoryHealth": "Santé",
       "categoryNutrition": "Nutrition",
@@ -21,13 +48,15 @@
       "categoryCommunity": "Communauté"
     },
     "pricing": {
+      "popularBadge": "Le plus populaire",
       "heading": "Gratuit pour toujours",
       "price": "0€",
       "priceUnit": "/mois",
       "valueProp1": "Pas d'abonnement, pas de surprise",
       "valueProp2": "Coaching IA inclus dans l'app",
       "valueProp3": "17 plugins disponibles dès le téléchargement",
-      "cta": "Télécharger gratuitement"
+      "cta": "Télécharger gratuitement",
+      "priceNote": "Essai gratuit 7 jours · Annulation à tout moment"
     }
   },
   "Plugins": {
@@ -50,18 +79,18 @@
     "community": "Rejoignez des défis, suivez vos amis et grimpez dans les classements de la communauté."
   },
   "Metadata": {
-    "homeTitle": "Ziko \u2014 L'appli fitness tout-en-un",
-    "homeDescription": "Coaching IA, suivi nutrition, GPS running, 17 plugins. T\u00e9l\u00e9chargez Ziko gratuitement.",
-    "ogImageAlt": "Ziko \u2014 Application fitness tout-en-un",
-    "legalTitle": "Mentions l\u00e9gales \u2014 Ziko",
-    "legalDescription": "Mentions l\u00e9gales de Ziko, application fitness mobile.",
-    "privacyTitle": "Politique de confidentialit\u00e9 \u2014 Ziko",
-    "privacyDescription": "Comment Ziko collecte et traite vos donn\u00e9es personnelles.",
-    "cguTitle": "Conditions g\u00e9n\u00e9rales d'utilisation \u2014 Ziko",
-    "cguDescription": "Conditions g\u00e9n\u00e9rales d'utilisation de l'application Ziko.",
-    "deleteTitle": "Supprimer mon compte \u2014 Ziko",
+    "homeTitle": "Ziko — L'appli fitness tout-en-un",
+    "homeDescription": "Coaching IA, suivi nutrition, GPS running, 17 plugins. Téléchargez Ziko gratuitement.",
+    "ogImageAlt": "Ziko — Application fitness tout-en-un",
+    "legalTitle": "Mentions légales — Ziko",
+    "legalDescription": "Mentions légales de Ziko, application fitness mobile.",
+    "privacyTitle": "Politique de confidentialité — Ziko",
+    "privacyDescription": "Comment Ziko collecte et traite vos données personnelles.",
+    "cguTitle": "Conditions générales d'utilisation — Ziko",
+    "cguDescription": "Conditions générales d'utilisation de l'application Ziko.",
+    "deleteTitle": "Supprimer mon compte — Ziko",
     "deleteDescription": "Demander la suppression de votre compte Ziko.",
-    "appScreenshotAlt": "Capture d'\u00e9cran de l'application Ziko"
+    "appScreenshotAlt": "Capture d'écran de l'application Ziko"
   },
   "Footer": {
     "copyright": "© 2026 Ziko. Tous droits réservés.",
